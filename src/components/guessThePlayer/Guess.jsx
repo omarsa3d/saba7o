@@ -60,7 +60,7 @@ const Guess = () => {
   return (
     <div className="guess-container">
       {/* HEADER AND CLUES */}
-      <h1>Guess the Player</h1>
+      <h1>خمن اللاعب</h1>
       <div>
         {revealedClues.map((clue, index) => (
           <p key={index}>{clue}</p>
@@ -73,12 +73,12 @@ const Guess = () => {
           onClick={showNextClue}
           disabled={revealedClues.length >= 5}
         >
-          Next Clue
+          الدليل الجاي
         </button>
         <button onClick={() => alert(`Answer: ${currentPlayer.name}`)}>
-          Show Answer
+          وريني الإجابه
         </button>
-        <button onClick={shufflePlayer}>Shuffle</button>
+        <button onClick={shufflePlayer}>غير اللاعب</button>
       </div>
 
       {/* Digital Clock */}
