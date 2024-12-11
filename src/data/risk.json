@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Category 1",
+    "5Points": "Question for 5 points",
+    "10Points": "Question for 10 points",
+    "20Points": "Question for 20 points",
+    "40Points": "Question for 40 points"
+  },
+  {
+    "name": "Category 2",
+    "5Points": "Question for 5 points",
+    "10Points": "Question for 10 points",
+    "20Points": "Question for 20 points",
+    "40Points": "Question for 40 points"
+  },
+  {
+    "name": "Category 3",
+    "5Points": "Question for 5 points",
+    "10Points": "Question for 10 points",
+    "20Points": "Question for 20 points",
+    "40Points": "Question for 40 points"
+  },
+  {
+    "name": "Category 4",
+    "5Points": "Question for 5 points",
+    "10Points": "Question for 10 points",
+    "20Points": "Question for 20 points",
+    "40Points": "Question for 40 points"
+  }
+]
