@@ -1,24 +1,31 @@
 button {
-    margin: 10px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
-  
-  button:disabled {
-    cursor: not-allowed;
-    opacity: 0.5;
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
-  
+
 .guess-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   min-height: 100vh; 
-   box-sizing: border-box; 
-   padding: 20px; 
-   margin: auto;
-   direction: rtl;
-   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+  margin: auto;
+  direction: rtl;
+  text-align: center;
+}
+
+.clues {
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid;
+  border-color: #535bf2c9;
 }

@@ -57,7 +57,7 @@ const Risk = () => {
   return (
     <div className="risk-game">
       <button className="shuffle-btn" onClick={shuffleCategories}>
-        Shuffle Categories
+        جيم جديد
       </button>
 
       <table className="game-table">
@@ -80,7 +80,7 @@ const Risk = () => {
                       onClick={() => handleQuestionClick(index, points)}
                       disabled={disabledQuestions.has(questionKey)}
                     >
-                      {points} Points
+                      {points} نقطه
                     </button>
                   </td>
                 );
@@ -91,8 +91,8 @@ const Risk = () => {
       </table>
 
       <div className="scores">
-        <div>Red Team: {redTeamScore}</div>
-        <div>Blue Team: {blueTeamScore}</div>
+        <div>الفريق الأول: {redTeamScore}</div>
+        <div>الفريق التاني: {blueTeamScore}</div>
       </div>
 
       {selectedQuestion && (
@@ -100,9 +100,9 @@ const Risk = () => {
           <div className="modal">
             <h2>{selectedQuestion.points} Points</h2>
             <p>{selectedQuestion.question}</p>
-            <button onClick={() => handleAddPoints('red')}>Add to Red Team</button>
-            <button onClick={() => handleAddPoints('blue')}>Add to Blue Team</button>
-            <button onClick={handleCloseModal}>Close</button>
+            <button onClick={() => handleAddPoints('blue')}>الفريق التاني</button>
+            <button onClick={() => handleAddPoints('red')}>الفريق الأول</button>
+            <button onClick={handleCloseModal}>محدش جاوب</button>
             </div>
         </div>
       )}

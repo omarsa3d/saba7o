@@ -63,7 +63,7 @@ const Guess = () => {
       <h1>خمن اللاعب</h1>
       <div>
         {revealedClues.map((clue, index) => (
-          <p key={index}>{clue}</p>
+          <p key={index} className='clues'>{clue}</p>
         ))}
       </div>
 

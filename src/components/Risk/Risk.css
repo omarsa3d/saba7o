@@ -64,7 +64,8 @@
   
   .scores {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 150px;
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
