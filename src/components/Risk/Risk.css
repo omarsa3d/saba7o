@@ -33,7 +33,7 @@
   }
   
   thead th {
-    background-color: #007bff;
+    background-color: #1a1a1a;
     color: white;
     padding: 10px;
     border: 1px solid #ddd;
@@ -47,14 +47,12 @@
   .question-card {
     padding: 10px;
     font-size: 14px;
-    background-color: #ffcc00;
-    border: none;
     border-radius: 5px;
     cursor: pointer;
   }
   
   .question-card:hover {
-    background-color: #e6b800;
+    border-color: #646cff;
   }
   
   .question-card:disabled {
@@ -84,7 +82,7 @@
   }
   
   .modal {
-    background: #1a1a1a;
+    background: #272727;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
